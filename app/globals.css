@@ -1,0 +1,44 @@
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0b0d10;
+  color: #e7ebf0;
+  font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.drop {
+  display: block;
+  border: 2px dashed #2a3340;
+  border-radius: 12px;
+  padding: 64px 24px;
+  cursor: pointer;
+  background: #10141a;
+}
+.drop:hover { border-color: #4c82ff; }
+.drop input { display: none; }
+
+img {
+  display: block;
+  width: 100%;
+  margin-top: 16px;
+  border-radius: 10px;
+}
+
+pre {
+  margin-top: 16px;
+  background: #10141a;
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 13px;
+  line-height: 1.5;
+  overflow: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
